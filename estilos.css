@@ -3,9 +3,30 @@ body {
     background-color: #f5f5f5;
     text-align: center;
 }
+
 #contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     background-color: #8ddff5;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div_contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+div[class^="caja"] {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 90px;
+    background-color: rgb(218, 214, 214);
+    border-radius: 5px;
 }

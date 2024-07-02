@@ -10,7 +10,7 @@
 <body>
     <div id="contenedor">
         <form id="form_buscar" action="">
-            <input id="input" type="text" placeholder="Ingrese ciudad">
+            <input id="input" type="text" placeholder="Ingrese ciudad" autocomplete="off">
             <button type="submit">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -19,12 +19,33 @@
         <h1>Cualquiera</h1>
         <p><span id="fecha"></span></p>
         <p><span id="descripcion">Despejado</span></p>
-        <p>Actual: <span id="actual">23°C</span></p>
-        <p>Máxima:<i class="fa-solid fa-temperature-high"></i> <span id="max">30°C</span></p>
-        <p>Mínima:<i class="fa-solid fa-temperature-low"></i> <span id="min">30°C</span></p>
-        <p>Viento:<i class="fa-solid fa-wind"></i> <span id="viento">5 km/h</span></p>
-        <p>Humedad:<i class="fa-solid fa-water"></i> <span id="humedad">70%</span></p>
-        <p>Visibilidad:<i class="fa-solid fa-eye"></i> <span id="visibilidad">Buena</span></p>
+
+        <div class="div_contenedor">
+            <div class="caja1">
+                <p>Actual <i class="fa-solid fa-temperature-quarter"></i><span id="actual">23°C</span></p>
+            </div>
+
+            <div class="caja2">
+                <p>Máxima <i class="fa-solid fa-temperature-high"></i> <span id="max">30°C</span></p>
+            </div>
+
+            <div class="caja3">
+                <p>Mínima <i class="fa-solid fa-temperature-low"></i> <span id="min">30°C</span></p>
+            </div>
+
+            <div class="caja4">
+                <p>Viento <i class="fa-solid fa-wind"></i> <span id="viento">5 km/h</span></p>
+            </div>
+
+            <div class="caja5">
+                <p>Humedad <i class="fa-solid fa-water"></i> <span id="humedad">70%</span></p>
+            </div>
+
+            <div class="caja6">
+                <p>Visibilidad <i class="fa-solid fa-eye"></i> <span id="visibilidad">Buena</span></p>
+            </div>
+    </div>
+
     </div>
 
     <script src="./datos.js"></script>
