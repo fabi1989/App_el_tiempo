@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/047a1590a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./estilos.css">
     <title>App del Clima</title>
 </head>
@@ -10,18 +11,20 @@
     <div id="contenedor">
         <form id="form_buscar" action="">
             <input id="input" type="text" placeholder="Ingrese ciudad">
-            <button type="submit">Buscar</button>
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
         </form>
         
         <h1>Cualquiera</h1>
         <p><span id="fecha"></span></p>
         <p><span id="descripcion">Despejado</span></p>
-        <p>Temperatura actual: <span id="actual">23°C</span></p>
-        <p>Temperatura máxima: <span id="max">30°C</span></p>
-        <p>Temperatura mínima: <span id="min">30°C</span></p>
-        <p>Viento: <span id="viento">5 km/h</span></p>
-        <p>Humedad: <span id="humedad">70%</span></p>
-        <p>Visibilidad<span id="visibilidad">Buena</span></p>
+        <p>Actual: <span id="actual">23°C</span></p>
+        <p>Máxima:<i class="fa-solid fa-temperature-high"></i> <span id="max">30°C</span></p>
+        <p>Mínima:<i class="fa-solid fa-temperature-low"></i> <span id="min">30°C</span></p>
+        <p>Viento:<i class="fa-solid fa-wind"></i> <span id="viento">5 km/h</span></p>
+        <p>Humedad:<i class="fa-solid fa-water"></i> <span id="humedad">70%</span></p>
+        <p>Visibilidad:<i class="fa-solid fa-eye"></i> <span id="visibilidad">Buena</span></p>
     </div>
 
     <script src="./datos.js"></script>

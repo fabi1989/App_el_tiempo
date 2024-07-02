@@ -25,9 +25,6 @@ async function elClima (city) {
 	cargaDatos(datos)
 }
 
-//elClima()
-
-
 function cargaDatos(datos){
 	lugar.textContent = datos.name
 	actual.textContent = Math.round(datos.main.temp) + " °C";
