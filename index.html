@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>App del Clima</title>
+</head>
+<body>
+    <div id="contenedor">
+        <form id="form_buscar" action="">
+            <input id="input" type="text" placeholder="Ingrese ciudad">
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <h1>Cualquiera</h1>
+        <p><span id="fecha"></span></p>
+        <p><span id="descripcion">Despejado</span></p>
+        <p>Temperatura actual: <span id="actual">23°C</span></p>
+        <p>Temperatura máxima: <span id="max">30°C</span></p>
+        <p>Temperatura mínima: <span id="min">30°C</span></p>
+        <p>Viento: <span id="viento">5 km/h</span></p>
+        <p>Humedad: <span id="humedad">70%</span></p>
+        <p>Visibilidad<span id="visibilidad">Buena</span></p>
+    </div>
+
+    <script src="./datos.js"></script>
+</body>
+</html>
