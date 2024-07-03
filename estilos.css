@@ -9,7 +9,8 @@ body {
 
 #contenedor {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(1, auto);
+    width: 310px;
     background-color: #8dd3f5;
     border-radius: 10px;
     padding: 20px;
@@ -18,10 +19,12 @@ body {
 
 .div_contenedor {
     display: grid;
-    grid-template-columns: repeat(2, 60px);
+    grid-template-columns: repeat(2, 90px);
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     padding: 20px;
+    background-color: rgb(183, 222, 243);
+    border-radius: 10px;
 }
 
 div[class^="caja"] {
@@ -30,6 +33,6 @@ div[class^="caja"] {
     align-items: center;
     border: 1px solid black;
     width: 90px;
-    background-color: rgb(218, 214, 214);
+    background-color: #ececec;
     border-radius: 5px;
 }
